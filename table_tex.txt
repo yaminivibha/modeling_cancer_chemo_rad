@@ -1,0 +1,49 @@
+Latex for tables:
+
+$$
+\begin{tabular}{|c|c|c|c|}
+\toprule
+Variable/Param & Context & Value & Units \\
+\hline
+T & total no. tumor cells & -- & cells\\
+T* & critical no. of tumor cells & 300,000 & cells\\
+N & total no. normal cells & --& cells\\
+K_T & carrying capacity of tumor cells & 1.2e6 & cells\\
+K_N & carrying capacity of normal cells & 1e6 & cells\\
+r_T & per capita growth rate of tumor cells & 0.3 & Time^{-1}\\
+r_N & per capita growth rate of normal cells & 0.4 & Time^{-1} \\
+\kappa & tumor-normal cell interaction rate & 0.028 & Time^{-1}\\
+\beta & normal-tumor cell interaction rate & .01 & Time^{-1}\\
+\rho_0 & interaction clearance term & 1 & Cells \\
+\rho_1 & half-saturation for interaction & 1000 & Cells \\
+\toprule
+\end{tabular}
+$$
+
+$$
+\begin{tabular}{llll c c c c}
+\Xhline{2\arrayrulewidth}
+Variable/Param & Context & Value & Units \\
+\hline
+a & Cancer clearance term & 1 & Time^{-1}\\
+b & Half-saturation of virus population & 5 & Viruses\\
+c & Antegenicity & 0.005 & Time^{-1}\\
+
+g_1 & Half-saturation proliferation term $ 2e7 & Cells \\
+g_2 & Half-saturation for cancer clearance & 1e5 & Time^{-1}\\
+g_3 & Half-saturation of production & 30 & Cells\\
+
+\mu_1 & Death rate of viruses & .03 \\
+\mu_2 & Death rate of immune cells & 0.03 \\
+\mu_3 & Half-life of effector molecules & 10 \\ 
+
+p_1 & Proliferation rate of immune cells & 0.1245 & Time^{-1}\\
+p_2 & Production rate of effector molecules & 5 & Time^{-1}\\
+
+\alpha & Effector-cell virus interaction rate & 2.5e4 & Time^{-1}\\
+\eta & Production rate of viruses & 3e4 & Time^{-1}\\
+\gamma & Virus-effector cell interaction rate & 0.005 & Time^{-1} \\
+
+\Xhline{2\arrayrulewidth}
+\end{tabular}
+$$
